@@ -1,0 +1,79 @@
+.App {
+    text-align: left;
+    font-size: medium;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.City-weather {
+    border: 2px solid black;
+    margin: 50px auto;
+    width: 50vh;
+    padding-left: 35px;
+}
+
+.Weather-desc p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.max-min-temp {
+    margin-top: 25px;
+}
+
+.max-min-temp p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.max-min-temp span {
+    margin-left: 20px;
+}
+
+.searchBar {
+    border-radius: 10px 10px;
+    height: 18px;
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.submitBtn {
+    border-radius: 10px 10px;
+    height: 42px;
+    width: 80px;
+    padding: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background-color: rgb(94, 156, 33);
+    cursor: pointer;
+}
+
+.search-error {
+    background-color: rgb(80, 74, 71);
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 28, 28);
+    text-align: center;
+    margin-top: 50px;
+    height: 80px;
+    padding-top: 50px;
+}
+
+.search-bar-empty {
+    background-color: rgb(201, 198, 196);
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(52, 28, 161);
+    text-align: center;
+    margin-top: 50px;
+    height: 80px;
+    padding-top: 50px;
+}
